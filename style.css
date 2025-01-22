@@ -46,8 +46,10 @@ body {
   width: 45%;
 }
 .profile img {
+  max-width: 100%;
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .we {
   color: hsl(0, 36%, 70%);
